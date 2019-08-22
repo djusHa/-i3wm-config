@@ -1,5 +1,5 @@
 #Multi Monitor
-exec --no-startup-id xrandr --output DP-1-1 --primary --auto --output DP-2 --rotate right  --right-of DP-1-1
+exec --no-startup-id xrandr --output DP-1-1 --primary --auto --output DP-2 --rotate right --right-of DP-1-1
 
 #Set GTK Theme
 exec --no-startup-id gnome-settings-daemon
@@ -79,7 +79,7 @@ bindsym $mod+Shift+q kill
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -width 50 -padding 300 -opacity "85" -bw 0
+bindsym $mod+d exec rofi -show drun -lines 5 -eh 2 -width 50 -padding 300 -opacity "85" -bw 0
 
 # change focus
 bindsym $mod+j focus left
