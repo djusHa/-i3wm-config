@@ -32,6 +32,11 @@
 
 Usefull Links:
 ---
+> Polybar
+
+[Wiki](https://github.com/polybar/polybar/wiki)
+
+> Rofi
 
 [Themes](https://github.com/davatorium/rofi-themes)
 
