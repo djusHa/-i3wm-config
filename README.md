@@ -1,5 +1,12 @@
 ### my i3 config
 ---
+> packages for xubuntu
+
+##### i3-gaps, polybar, compton, 
+`sudo add-apt-repository ppa:kgilmer/speed-ricer`
+`sudo apt update`
+`audo apt install i3-gaps polybar compton rofi -y`
+
 > config files
 
 ##### i3WM
