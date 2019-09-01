@@ -1,9 +1,9 @@
 ### my i3 config
 ---
 > packages for xubuntu
+{: .gitlab-orange}
 
 ##### i3-gaps, polybar, compton, rofi
-{: .gitlab-orange}
 
 `sudo add-apt-repository ppa:kgilmer/speed-ricer`
 
