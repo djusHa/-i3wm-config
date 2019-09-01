@@ -8,9 +8,13 @@
 sudo add-apt-repository ppa:kgilmer/speed-ricer
 ```
 
-`sudo apt update`
+```apt
+sudo apt update
+```
 
-`audo apt install i3-gaps polybar compton rofi -y`
+```apt
+sudo apt install i3-gaps polybar compton rofi -y
+```
 
 
 > config files
