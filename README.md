@@ -9,6 +9,7 @@
 
 `audo apt install i3-gaps polybar compton rofi -y`
 
+
 > config files
 
 ##### i3WM
