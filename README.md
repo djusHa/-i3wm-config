@@ -34,6 +34,7 @@
 Usefull Links:
 ---
 > Font Awesome
+
 [Cheatsheet](https://fontawesome.com/cheatsheet)
 
 > Polybar
