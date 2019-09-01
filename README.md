@@ -2,7 +2,8 @@
 ---
 > packages for xubuntu
 
-##### i3-gaps, polybar, compton, 
+##### i3-gaps, polybar, compton, rofi
+{: .gitlab-orange}
 `sudo add-apt-repository ppa:kgilmer/speed-ricer`
 
 `sudo apt update`
