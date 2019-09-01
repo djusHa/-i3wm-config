@@ -1,6 +1,6 @@
 ### my i3 config
 ---
-NOTE: Note: packages for xubuntu
+> packages for xubuntu
 
 ##### i3-gaps, polybar, compton, 
 `sudo add-apt-repository ppa:kgilmer/speed-ricer`
