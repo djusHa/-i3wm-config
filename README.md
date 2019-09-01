@@ -1,6 +1,6 @@
 ### my i3 config
 ---
-#### config files
+> #### config files
 
 ##### i3WM
 `i3wm_config -> ~/.config/i3/config`
