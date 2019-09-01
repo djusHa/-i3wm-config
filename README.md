@@ -3,18 +3,18 @@
 #### config files
 
 ##### i3WM
-i3wm_config -> ~/.config/i3/config
+`i3wm_config -> ~/.config/i3/config`
 
 ##### Polybar
-polybar_config -> ~/.config/polybar/config
+`polybar_config -> ~/.config/polybar/config`
 
-polybar_launch.sh -> .config/polybar/launch.sh
+`polybar_launch.sh -> .config/polybar/launch.sh`
 
 #### Compton
-compton.conf -> .config/compton.conf
+`compton.conf -> .config/compton.conf`
 
 ##### Rofi Power Menu
-rofi_power.sh -> ~/scripts/rofi_power.sh
+`rofi_power.sh -> ~/scripts/rofi_power.sh`
 
 first install rofi
 
