@@ -18,7 +18,9 @@
 ##### Polybar
 `polybar_config -> ~/.config/polybar/config`
 
-`polybar_launch.sh -> .config/polybar/launch.sh`
+`polybar_launch.sh -> ~/.config/polybar/launch.sh`
+
+`chmod +x /.config/polybar/launch.sh`
 
 #### Compton
 `compton.conf -> .config/compton.conf`
@@ -26,9 +28,7 @@
 ##### Rofi Power Menu
 `rofi_power.sh -> ~/scripts/rofi_power.sh`
 
-first install rofi
-
-`sudo apt install rofi -y`
+`chmod +x ~/scripts/rofi_power.sh`
 
 Usefull Links:
 ---
