@@ -33,6 +33,9 @@
 
 Usefull Links:
 ---
+> Font Awesome
+[Cheatsheet](https://fontawesome.com/cheatsheet)
+
 > Polybar
 
 [Wiki](https://github.com/polybar/polybar/wiki)
