@@ -4,7 +4,9 @@
 
 ##### i3-gaps, polybar, compton, rofi
 
-`sudo add-apt-repository ppa:kgilmer/speed-ricer`
+``` apt
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+```
 
 `sudo apt update`
 
