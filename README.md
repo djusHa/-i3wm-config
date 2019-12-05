@@ -39,16 +39,16 @@ chmod +x /.config/polybar/launch.sh
 
 #### Compton
 ```
-compton.conf -> .config/compton.conf
+compton.conf -> ~/.config/compton.conf
 ```
 
 ##### Rofi Power Menu
 ```
-rofi_power.sh -> ~/scripts/rofi_power.sh
+rofi_power.sh -> ~/scripts/rofi-power.sh
 ```
 
 ```
-chmod +x ~/scripts/rofi_power.sh
+chmod +x ~/scripts/rofi-power.sh
 ```
 
 Usefull Links:
