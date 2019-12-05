@@ -65,7 +65,7 @@ Usefull Links:
 
 [Themes](https://github.com/davatorium/rofi-themes)
 
-Download *.rasi file to /usr/share/rofi/themes/ on ** XUbuntu **
+Download *.rasi file to /usr/share/rofi/themes/ on **XUbuntu**
 
 Terminal "rofi -show run"
 
