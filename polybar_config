@@ -1,4 +1,4 @@
-; .config/polybar/config
+;~/.config/polybar/config
 ;=====================================================
 ;
 ;   To learn more about how to configure Polybar
@@ -167,7 +167,7 @@ label = %gb_free%
 type = internal/network
 interface = enp0s31f6
 interval = 3.0
-label-connected =  %linkspeed%
+label-connected =  %linkspeed% | %local_ip%
 label-connected-foreground = ${colors.foreground}
 
 [module/date]
