@@ -7,14 +7,14 @@
 /* global settings and color variables */
 * {
    maincolor:        #ed8712;
-   highlight:        bold #ed8712;
+   highlight:        bold #DC3023;
    urgentcolor:      #e53714;
 
    fgwhite:          #cfcfcf;
    blackdarkest:     #1d1d1d;
    blackwidget:      #262626;
    blackentry:       #292929;
-   blackselect:      rgba(237, 135, 18, 0.8);
+   blackselect:      #ed8712;
    darkgray:         #848484;
    scrollbarcolor:   #505050;
    font: "Meslo LG M DZ 14";
@@ -127,11 +127,11 @@ inputbar {
 prompt {
    padding:6px 9px;
    background-color: @maincolor;
-   text-color:@blackwidget;
+   text-color: @blackwidget;
 }
 
 entry {
-   padding:6px 10px;
+   padding: 6px 10px;
    background-color:@blackwidget;
    text-color:@fgwhite;
 }
