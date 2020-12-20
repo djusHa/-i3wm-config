@@ -1,5 +1,10 @@
 ### my i3 config
 ---
+
+##### a better Way
+---
+[Xubuntu with i3 Tiling Windows](https://feeblenerd.blogspot.com/2015/11/pretty-i3-with-xfce.html)
+
 > packages for xubuntu
 
 ##### i3-gaps, polybar, compton, rofi
@@ -13,7 +18,7 @@ sudo apt update
 ```
 
 ```apt
-sudo apt install i3-gaps polybar compton rofi -y
+sudo apt install i3-gaps compton rofi -y
 ```
 
 
