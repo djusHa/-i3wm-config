@@ -31,19 +31,6 @@ sudo apt install i3-gaps compton rofi -y
 i3wm_config -> ~/.config/i3/config
 ```
 
-##### Polybar
-```
-polybar_config -> ~/.config/polybar/config
-```
-
-```
-polybar_launch.sh -> ~/.config/polybar/launch.sh
-```
-
-```
-chmod +x /.config/polybar/launch.sh
-```
-
 #### Compton
 ```
 compton.conf -> ~/.config/compton.conf
