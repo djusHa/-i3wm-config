@@ -7,7 +7,7 @@ rofi_cmd="rofi"
 power_off=" Ausschalten"
 reboot=" Neustarten"
 log_out=" Ausloggen"
-lock=" Sperren"
+lock=" Sperren"
 suspend=" Ruhemodus"
 
 options="$power_off\n$reboot\n$log_out\n$lock\n$suspend"
@@ -20,9 +20,9 @@ case $chosen in
   $reboot)
     systemctl reboot ;;
   $log_out)
-    i3-msg exit ;;
+    xfce4-session-logout --logout --fast ;;
   $lock)
     light-locker-command -l ;;
   $suspend)
-    systemctl syspend ;;
+    xfce4-session-logout --suspend ;;
 esac
