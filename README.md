@@ -1,9 +1,11 @@
 ### my i3 config
 ---
 
-##### a better Way
+##### ... a better Way to use awesome i3WM on Xubuntu
 ---
 [Xubuntu with i3 Tiling Windows](https://feeblenerd.blogspot.com/2015/11/pretty-i3-with-xfce.html)
+
+---
 
 > packages for xubuntu
 
