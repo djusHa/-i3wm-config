@@ -7,7 +7,7 @@
 
 ---
 
-> compile i3ipc-glib and xfce4-i3-workspaces-plugin
+#### compile i3ipc-glib and xfce4-i3-workspaces-plugin
 
 ```
 sudo su -
