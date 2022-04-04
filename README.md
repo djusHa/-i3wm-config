@@ -7,12 +7,33 @@
 
 ---
 
+> compile i3ipc-glib and xfce4-i3-workspaces-plugin
+
+```
+sudo apt install xfce4-dev-tools \
+gcc \
+build-essential \
+autotools-dev \
+libxcb1 \
+libxcb1-dev \
+xcb-proto \
+libglib2.0-0 \
+libglib2.0-dev \
+gobject-introspection \
+libjson-glib-dev \
+gtk-doc-tools \
+pkg-config \
+libgtk2.0-dev \
+libxfce4ui-2-dev \
+libxfce4panel-2.0-dev
+```
+
 > packages for xubuntu
 
 ##### i3-gaps, polybar, compton, rofi
 
 ``` apt
-sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo add-apt-repository ppa:regolith-linux/release
 ```
 
 ```apt
