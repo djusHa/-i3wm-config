@@ -10,7 +10,9 @@
 > compile i3ipc-glib and xfce4-i3-workspaces-plugin
 
 ```
-sudo apt install xfce4-dev-tools \
+sudo su -
+
+apt install xfce4-dev-tools \
 gcc \
 build-essential \
 autotools-dev \
@@ -26,6 +28,24 @@ pkg-config \
 libgtk2.0-dev \
 libxfce4ui-2-dev \
 libxfce4panel-2.0-dev
+
+git clone https://github.com/altdesktop/i3ipc-glib.git
+
+cd i3ipc-glib
+
+./autogen.sh --prefix=/usr
+make
+sudo make install
+
+cd ..
+
+git clone https://github.com/denesb/xfce4-i3-workspaces-plugin.git
+
+cd xfce4-i3-workspaces-plugin
+
+./autogen.sh --prefix=/usr
+make
+sudo make install
 ```
 
 > packages for xubuntu
