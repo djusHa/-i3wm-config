@@ -60,6 +60,7 @@ sudo make install
 
 > packages for xubuntu
 
+
 ##### i3-gaps, polybar, compton, rofi
 
 ``` apt
