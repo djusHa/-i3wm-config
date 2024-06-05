@@ -6,38 +6,33 @@
 
 /* global settings and color variables */
 * {
-   maincolor:        #ed8712;
-   highlight:        bold #DC3023;
-   urgentcolor:      #e53714;
+   maincolor:        #CA6924;
+   background:       #34302f;
 
    fgwhite:          #cfcfcf;
    blackdarkest:     #1d1d1d;
    blackwidget:      #262626;
    blackentry:       #292929;
-   blackselect:      #ed8712;
+   blackselect:      #303030;
    darkgray:         #848484;
    scrollbarcolor:   #505050;
-   font: "Meslo LG M DZ 14";
-   background-color: @blackdarkest;
+   background-color: @background;
 }
 
 window {
-   background-color: @blackdarkest;
+   background-color: @background;
 }
 
 mainbox {
    spacing:0px;
-   background-color: @blackdarkest;
 }
 
 message {
    padding: 6px 10px;
-   background-color:@blackwidget;
 }
 
 textbox {
-   text-color:@darkgray;
-   background-color:@blackwidget;
+   text-color: @darkgray;
 }
 
 listview {
@@ -47,56 +42,71 @@ listview {
    spacing: 0px;
    padding: 1px 0px 0px 0px;
    margin: 0px 0px 1px 0px;
-   background: @blackdarkest;
+   lines: 6;
 }
 
 element {
-   padding: 10px 15px;
+  border: 0;
+  padding: 10px 15px;
+}
+
+element-text {
+  text-color: inherit;
+  vertical-align: 0.5;
+  padding: 0 10px;
+}
+
+element-icon {
+  size: 1.5em;
+}
+
+element-text, element-icon {
+  background-color: transparent;
 }
 
 element normal.normal {
    padding: 0px 15px;
-   background-color: @blackentry;
+   background-color: @background;
    text-color: @fgwhite;
 }
 
 element normal.urgent {
-   background-color: @blackentry;
+   background-color: @background;
    text-color: @urgentcolor;
 }
 
 element normal.active {
-   background-color: @blackentry;
+   background-color: @background;
    text-color: @maincolor;
 }
 
 element selected.normal {
-    background-color: @blackselect;
-    text-color:       @fgwhite;
+    background-color: @maincolor;
+    text-color:       @highlight;
 }
 
 element selected.urgent {
-    background-color: @urgentcolor;
-    text-color:       @blackdarkest;
+    background-color: @maincolor;
+    text-color:       @background;
 }
 
 element selected.active {
     background-color: @maincolor;
-    text-color:       @blackdarkest;
+    text-color:       @background;
 }
 
 element alternate.normal {
-    background-color: @blackentry;
+    background-color: @background;
     text-color:       @fgwhite;
 }
 
 element alternate.urgent {
-    background-color: @blackentry;
+    background-color: @background;
     text-color:       @urgentcolor;
 }
 
 element alternate.active {
-    background-color: @blackentry;
+    background-color: @background;
     text-color:       @maincolor;
 }
 
